@@ -35,6 +35,21 @@
 		</dependency>
 		<dependency>
 			<groupId>org.mini</groupId>
+			<artifactId>mini-common</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mini</groupId>
+			<artifactId>mini-model</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mini</groupId>
+			<artifactId>mini-framework</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mini</groupId>
 			<artifactId>mini-persist</artifactId>
 			<version>1.0</version>
 		</dependency>
