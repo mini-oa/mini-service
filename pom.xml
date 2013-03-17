@@ -34,24 +34,14 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.mini</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>mini-common</artifactId>
-			<version>1.0</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.mini</groupId>
-			<artifactId>mini-model</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mini</groupId>
-			<artifactId>mini-framework</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mini</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>mini-persist</artifactId>
-			<version>1.0</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
