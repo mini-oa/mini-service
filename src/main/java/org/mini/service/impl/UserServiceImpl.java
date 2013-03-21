@@ -51,7 +51,14 @@ public class UserServiceImpl implements UserService {
 	@Transactional(readOnly = false, propagation = Propagation.REQUIRED)
 	public void delete(long id) throws Exception {
 		// TODO Auto-generated method stub
-		
+		userDao.delete(id);
+	}
+
+	@Override
+	@Transactional(readOnly = true, propagation = Propagation.SUPPORTS)
+	public User get(long id) throws Exception {
+		// TODO Auto-generated method stub
+		return userDao.get(id);
 	}
 
 }
